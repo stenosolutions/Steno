@@ -14,7 +14,7 @@
     <div class="menu-principal">
             <!-- parte do icone -->
         <div class="icone">
-                <a href="#">
+                <a href="index.html">
                     <img src="img/stenoFundoBranco.png" alt="Logo-Steno-Solutions">
                 </a>
         </div>
@@ -23,7 +23,7 @@
         <div class="itens-menu">
             <ul>
                 <li class="itens-inicio">
-                    <a href="#">Início</a>
+                    <a href="index.html">Início</a>
                     <div id="linha-laranja"></div>
                 </li>
                 <div id="circulo" style="margin-left: 70px; margin-top: 5px;"></div>
@@ -116,13 +116,38 @@
 
     <!-- aba de contato -->
     <div class="contato">
-        
+        <h2>Entre em<br>contato</h2>
+        <section class="sec-form">
+            <form id="formulario-contato" action="" class="app_form">
+                <div class="form-group">
+                    <input autocomplete="off" required type="text" name="nome" placeholder="Nome Completo">
+                </div>
+                <div class="form-group">
+                    <input autocomplete="off" required type="text" name="email" placeholder="e-mail">
+                </div>
+                <div class="form-group">
+                    <input autocomplete="off" required type="text" name="Empresa" placeholder="Empresa">
+                </div>
+                <div class="form-group">
+                    <input autocomplete="off" required type="tel" name="telefone" minlength="11" placeholder="Telefone">
+                </div>
+                <div class="form-group">
+                    <textarea autocomplete="off" required form="formulario-contato" placeholder="Assunto"></textarea>
+                </div>
+                <div class="btn-formulario">
+                    <img src="img/seta-vector.svg" alt="Seta vetorial">
+                    <input type="submit" value="Enviar informações">
+                </div>
+            </form>
+        </section>    
     </div>
 
     <!-- rodapé do site -->
     <div class="rodape">
         <div class="logo-rodape">
-            <img src="img/steno (1).png" alt="Logo da marca Steno">
+            <a href="index.html">
+                <img src="img/steno (1).png" alt="Logo da marca Steno">
+            </a>
         </div>
         <div>
             <ul class="lista-produtos">

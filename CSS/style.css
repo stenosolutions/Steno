@@ -412,7 +412,7 @@ div.rodape {
     color: white;
 }
 
-div.logo-rodape img{
+div.logo-rodape a img{
     height: 50px;
     margin-top: 50px;
     margin-left: 80px;
@@ -477,8 +477,8 @@ div.redes-sociais {
 }
 
 p.rodape-email {
-    margin-top: 50px;
-    margin-left: 1060px;
+    padding-top: 50px;
+    padding-left: 1060px;
 
     font-style: normal;
     font-size: 14px;
@@ -486,8 +486,8 @@ p.rodape-email {
 }
 
 p.copyright {
-    margin-top: 70px;
-    margin-left: 80px;
+    padding-top: 50px;
+    padding-left: 80px;
 
     font-size: 12px;
     line-height: 14px; 
@@ -497,15 +497,91 @@ p.copyright {
 
 /* CSS pagina de contato */
 fieldset{
-    position: absolute;
     width: 562px;
     left: 100px;
-    border: 0;
+}
+div.contato {
+    padding-bottom: 100px;
+    padding-top: 120px;
+    padding-left: 180px;
 }
 
-div.contato {
-    position: absolute;
-    top: 100px;
+div.contato h2{
+    align-items: flex-start;
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 69px;
+    margin-left: -80px;
+    color: #747474;
+}
+
+section.sec-form {
+    margin-top: -150px;
+    margin-left: 500px;
+}
+
+div.form-group input::placeholder,
+div.form-group textarea::placeholder{
+    position: relative;
+    top: 30px;
+    padding-top: 10px;
+    padding-left: 20px;
+
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+
+    color: #747474;
+}
+
+div.form-group textarea,
+div.form-group input{
+    resize: none;
+    width: 562px;
+    height: 43.56px;
+    border-bottom: 1px solid #747474;
+    border-radius: 18px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    padding-bottom: 50px;
+}
+
+div.btn-formulario{
+    padding-top: 40px;
+}
+
+div.btn-formulario img{
+    height: 26.21px;
+
+    position: relative;
+    
+    margin-bottom: -37px;
+    margin-left: 150px;
+}
+
+div.btn-formulario input{
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+
+    margin-right: 20px;
+    margin-top: -10px;
+    color: #FFFFFF;
+
+    width: 562px;
+    height: 61px;
+
+    background: #FBA040;
+    border-style: none;
+    border-radius: 30px;
 }
 /*Fim CSS Contato*/
 
