@@ -1,0 +1,585 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+
+/* CSS Global */
+body {
+    background-color: #ffffff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Formas Geometricas */
+#circulo {
+    float: left;
+    width: 7px;
+    height: 7px;
+    shape-outside: circle();
+    clip-path: circle();
+    background: black;
+}
+
+/* CSS Menu */
+div.menu-principal{
+    margin-left: -8px;
+    margin-top: 0px;
+    margin-right: -8px;
+    padding-bottom: 10px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.8);
+}
+
+div.icone img{
+    height: 45px;
+    margin-left: 8.75%;
+    margin-top: 0.38%;
+}
+
+.itens-menu {
+    position: absolute;
+    height: 45px;
+    margin-left: 770px;
+    margin-top: -25px;
+}
+
+.itens-menu li{
+    list-style: none;
+    margin: 10px;
+    display: inline;
+}
+
+.itens-menu a{
+    color: black;
+}
+
+.itens-inicio{
+    padding-right: 30px;
+}
+
+.itens-produtos{
+    padding-right: 30px;
+}
+
+.itens-time{
+    padding-right: 30px;
+}
+
+.itens-contato{
+    padding-right: 0px;
+}
+
+#linha-laranja {
+    position: absolute;
+    width: 50px;
+    height: 0px;
+    left: 2px;
+    top: 20px;
+    border: 2px solid #FBA040;
+}
+
+/* CSS Cabecalho */
+img.cabecalho-img{
+    position: relative;
+    height: 507px;
+    width: 1291px;
+    margin-left: -10px;
+}
+
+div.gradiente{
+    position: absolute;
+    margin-top: -511px;
+    margin-left: -10px;
+    height: 507px;
+    width: 1291px;
+    background: linear-gradient(270deg, rgba(22, 22, 22, 0.5) 53.42%, rgba(22, 22, 22, 0) 100%);
+}
+
+h2.letra-branca-h2{
+    font-family: 'Arimo', sans-serif;
+    position: absolute;
+    left: 700px;
+    font-size: 60px;
+    text-align: right;
+    line-height: 69px;
+    margin-top: -318px;
+    color: white;
+}
+
+p.letra-branca-p{
+    font-family: 'Arimo', sans-serif;
+    position: absolute;
+    top: 385px;
+    left: 605px;
+    height: 18px;
+    color: white;
+    text-align: right;
+}
+
+button.btn-fale-conosco{
+    font-family: 'Arimo', sans-serif;
+    position: absolute;
+    top: 460px;
+    left: 930px;
+    color: white;
+    border-style: none;
+    border-radius: 30px;
+    background: #FBA040;
+    text-align: center;
+    width: 273px;
+    height: 38px;
+    font-size: 18px;
+}
+
+/* CSS Sobre Steno */
+.retangulo{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
+    width: 1164px;
+    height: 319px;
+    position: absolute;
+    left: 65px;
+    top: 534px;
+}
+
+.logo-sobre-steno{
+    width: 162px;
+    height: 64px;
+    position: absolute;
+    left: 500px;
+    top: 30px;
+}
+
+.texto-sobre-steno{
+    color: #787878;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    font-family: 'Arimo', sans-serif;
+    position: absolute;
+    top: 120px;
+    left: 250px;
+    right: 180px;
+}
+
+/* CSS bem estar */
+h2.bem-estar{
+    position: absolute;
+    right: 800px;
+    top: -10px;
+    width: 352px;
+    height: 78px;
+
+    text-align: left;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 60px;
+    line-height: 69px;
+    color: #787878;
+}
+
+div.quadro-flor p{
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: right;
+    color: #787878;
+
+    position: absolute;
+    width: 352px;
+    height: 78px;
+    right: 20px;
+    top: 10px;
+}
+
+div.quadro-flor img{
+    height: 50px;
+    width: 53.22px;
+    position: absolute;
+    right: 415px;
+    top: 40px;
+}
+
+div.borda-flor{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 500px;
+    height: 132px;
+    left: 725px;
+    top: 933px;
+
+    background: #FFFFFF;
+    border: 1px solid #FBA040;
+    border-radius: 30px;
+}
+
+div.borda-livro{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 500px;
+    height: 132px;
+    left: 725px;
+    top: 1075px;
+
+    background: #FFFFFF;
+    border: 1px solid #FBA040;
+    border-radius: 30px;
+}
+
+div.quadro-livro img{
+    height: 50px;
+    width: 53.22px;
+    position: absolute;
+    right: 415px;
+    top: 40px;
+}
+
+div.quadro-livro p{
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: right;
+    color: #787878;
+
+    position: absolute;
+    width: 352px;
+    height: 78px;
+    right: 20px;
+    top: 30px;
+}
+
+div.borda-pasta{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 500px;
+    height: 132px;
+    left: 725px;
+    top: 1217px;
+
+    background: #FFFFFF;
+    border: 1px solid #FBA040;
+    border-radius: 30px;
+}
+
+div.quadro-pasta img{
+    height: 50px;
+    width: 53.22px;
+    position: absolute;
+    right: 415px;
+    top: 40px;
+}
+
+div.quadro-pasta p{
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: right;
+    color: #787878;
+
+    position: absolute;
+    width: 352px;
+    height: 78px;
+    right: 20px;
+    top: 30px;
+}
+
+/* CSS DOTI */
+img.slide {
+    position: absolute;
+    width: 1330px;
+    height: 291px;
+    left: -40px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.slider {
+    display: block;
+    height: 293px;
+    width: 600px;
+    margin-top: 860px;
+    margin-left: 0px;
+    position: relative;
+}
+
+.slider li {
+    list-style: none;
+    position: absolute;
+}
+
+.slider input {
+    display: none;
+}
+
+.slider label {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    margin-left: 665px;
+    top: 310px;
+
+    border: 3px solid #B6B6B6;
+    box-sizing: border-box;
+    border-radius: 18px;
+    z-index: 10;
+}
+
+.slider img {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.slider li input:checked ~ img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+}
+
+.slider li input:checked ~ label {
+    background: #B6B6B6;
+}
+
+.slider li:nth-child(1) label {
+    left: 10px;
+}
+
+.slider li:nth-child(2) label {
+    left: 40px;
+}
+
+div.gradiente-slide {
+    position: absolute;
+    width: 1330px;
+    height: 291px;
+    left: -40px;
+    z-index: 10;
+    background: linear-gradient(270deg, rgba(0, 0, 0, 0.56) 53.42%, rgba(22, 22, 22, 0) 100%);
+}
+
+img.doti {
+    position: absolute;
+    left: 405px;
+    top: 1535px;
+    width: 186px;
+    height: 68px;
+    z-index: 10;
+}
+
+div.linha-doti {
+    position: absolute;
+    width: 120px;
+    height: 0px;
+    left: 605px;
+    top: 1565px;
+    border: 2px solid #FFFFFF;
+    transform: rotate(90deg);
+    z-index: 10;
+}
+
+p.txt-slide {
+    position: absolute;
+    width: 332px;
+    height: 54px;
+    left: 755px;
+    top: 1535px;
+
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    z-index: 10;
+    color: #FFFFFF;
+}
+
+/* CSS Rodapé */
+div.rodape {
+    background-color: black;
+    height: 372px;
+    color: white;
+}
+
+div.logo-rodape img{
+    height: 50px;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+
+ul.lista-produtos {
+    list-style: none;
+    margin-top: 50px;
+    margin-left: 80px;
+    text-align: left;
+    color: white;
+}
+
+ul.lista-produtos li a{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    color: white;
+}
+
+ul.lista-produtos li{
+    padding-top: 10px;
+
+    font-size: 14px;
+    line-height: 16px;
+    color: white;
+    font-weight: 400;
+}
+
+ul.lista-institucional {
+    list-style: none;
+    margin-top: -55px;
+    margin-left: 350px;
+    text-align: left;
+    color: white;
+    font-style: normal;
+}
+
+ul.lista-institucional li{
+    padding-top: 10px;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+ul.lista-institucional li a{
+    font-size: 14px;
+    line-height: 16px;
+    color: white;
+    font-weight: 400;
+}
+
+div.redes-sociais img{
+    padding-right: 10px;
+    width: 27.5px;
+}
+
+div.redes-sociais {
+    margin-left: 1100px;
+    margin-top: -55px;
+}
+
+p.rodape-email {
+    margin-top: 50px;
+    margin-left: 1060px;
+
+    font-style: normal;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+p.copyright {
+    margin-top: 70px;
+    margin-left: 80px;
+
+    font-size: 12px;
+    line-height: 14px; 
+}
+/* Fim CSS Home */
+
+
+/* CSS pagina de contato */
+fieldset{
+    position: absolute;
+    width: 562px;
+    left: 100px;
+    border: 0;
+}
+
+div.contato {
+    position: absolute;
+    top: 100px;
+}
+/*Fim CSS Contato*/
+
+
+/* CSS Pagina de Produtos */
+div.produtos h2{
+    font-family: 'Arimo', sans-serif;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 69px;
+    color: #000000;
+    margin-left: 150px;
+    padding-top: 40px;
+}
+
+img.foto-produto-doti {
+    width: 500px;
+    border-radius: 10px;
+}
+
+div.produto-doti{
+    margin-top: 10px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    width: 500px;
+    height: 333px;
+    margin-left: 20px;
+}
+
+img.produto-doti {
+    position: relative;
+    z-index: 10;
+    width: 166px;
+    margin-left: 185px;
+    bottom: 200px;
+    
+}
+
+div.gradiente-doti{
+    position: relative;
+    margin-top: -402px;
+    width: 500px;
+    border-radius: 10px;
+    height: 333px;
+    background: linear-gradient(270deg, rgba(22, 22, 22, 0.8) 53.42%, rgba(22, 22, 22, 0) 100%);
+}
+
+div.sua-saude{
+    margin-top: -392px;
+    margin-left: 530px;    
+}
+
+img.sua-saude-img{
+    position: relative;
+    top: 85px;
+    left: 100px;
+    width: 296px;
+}
+
+div.gradiente-sua-saude {
+    border-radius: 10px;
+    width: 500px;
+    height: 155px;
+    background: linear-gradient(90.17deg, #FA11A5 0%, #2AC8BA 56.75%);
+}
+
+div.produto-futuro{
+    width: 500px;
+    height: 155px;
+    margin-top: 23px;
+    margin-left: 530px;
+
+    background: #2B0D0D;box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+/* Fim CSS Produtos*/
